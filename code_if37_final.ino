@@ -52,10 +52,10 @@ void loop() {
       etatToggle = !etatToggle;
      
       if (etatToggle) {
-        tone(PIN_BUZZER, 4200);
+        tone(PIN_BUZZER, 4100);
         digitalWrite(PIN_LED, HIGH);
       } else {
-        tone(PIN_BUZZER, 3000);
+        tone(PIN_BUZZER, 3500);
         digitalWrite(PIN_LED, LOW);
       }
     }
